@@ -1,0 +1,4 @@
+{
+    "image": "structurizr/lite",
+    "forwardPorts": [8080]
+}
