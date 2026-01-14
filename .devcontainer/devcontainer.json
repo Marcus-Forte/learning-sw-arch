@@ -1,4 +1,11 @@
 {
     "image": "structurizr/lite",
-    "forwardPorts": [8080]
+    "overrideCommand": false, // allows structurizr to run its default command
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "systemticks.c4-dsl-extension"
+            ]
+        }
+    }
 }
