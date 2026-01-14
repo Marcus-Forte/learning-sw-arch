@@ -1,10 +1,16 @@
 {
     "image": "structurizr/lite",
     "overrideCommand": false, // allows structurizr to run its default command
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/usr/local/structurizr,type=bind,consistency=cached"
+    ],
+    "containerEnv": {
+        "STRUCTURIZR_WORKSPACE_PATH": "agentic_robot"
+    },
     "customizations": {
         "vscode": {
             "extensions": [
-                "systemticks.c4-dsl-extension"
+                "ciarant.vscode-structurizr"
             ]
         }
     }

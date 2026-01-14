@@ -1,7 +1,7 @@
-# C4 Modeling 
+# C4 SW Modeling 
 
-From the root of this repo, run:
+Simply open this repository with devcontainer and start modeling. C4 Diagrams will be rendered at `http://localhost:8080`.
 
-```bash
-docker run --rm -p 8080:8080 -v .:/usr/local/structurizr  structurizr/lite
-```
+## Workspace
+
+At `.devcontainer/devcontainer.json` modity `STRUCTURIZR_WORKSPACE_PATH` accordingly to render the intended workspace.
